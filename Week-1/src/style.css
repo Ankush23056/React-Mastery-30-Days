@@ -1,0 +1,24 @@
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.cardStyle{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: aqua;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.cardStyle .btnStyle{
+
+    background: green;
+    width: 100px;
+    height: 40px;
+}
